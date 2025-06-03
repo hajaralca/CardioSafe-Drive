@@ -1,0 +1,11 @@
+1. Introduction: Cardiac events cause 23% of sudden-driver deaths (NHTSA 2023)  
+2. Related Work: Limitations of current DMS (e.g., Tesla cabin camera misses cardiac signs)  
+3. Methodology:  
+   - manD 1.0 augmentation with medical labels  
+   - Monte Carlo failure mode simulation  
+   - CNN + Bayesian network fusion  
+4. Validation:  
+   - manD dataset (simulator)  
+   - On-road tests with paramedics (5 volunteers)  
+5. Ethics: Privacy-preserving ECG analytics  
+6. Timeline: 3-year plan with industry partnerships (e.g., BMW, EMS)  
