@@ -1,0 +1,19 @@
+name: cardiac-risk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pyqt  # For NeuroKit2 ECG plotting
+  - jupyter
+  - pip
+  - pip:
+    - neurokit2
+    - torch
+    - pyedflib  # For manD EEG data
+    - pymc3
+    - arviz
